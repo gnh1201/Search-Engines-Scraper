@@ -9,7 +9,8 @@ from .startpage import Startpage
 from .torch import Torch
 from .yahoo import Yahoo
 from .daumcafe import Daumcafe
-
+from .naverkin import Naverkin
+from .naverblog import Naverblog
 
 search_engines_dict = { 
     'google': Google, 
@@ -22,6 +23,8 @@ search_engines_dict = {
     'ask': Ask, 
     'mojeek': Mojeek, 
     'torch': Torch,
-    'daumcafe': Daumcafe
+    'daumcafe': Daumcafe,
+    'naverkin': Naverkin,
+    'naverblog': Naverblog
 }
 

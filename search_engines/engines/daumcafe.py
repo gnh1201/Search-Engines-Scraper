@@ -5,7 +5,7 @@ from ..config import PROXY, TIMEOUT, FAKE_USER_AGENT
 class Daumcafe(SearchEngine):
     '''Searches search.daum.net/search?w=cafe'''
     def __init__(self, proxy=PROXY, timeout=TIMEOUT):
-        super(Bing, self).__init__(proxy, timeout)
+        super(Daumcafe, self).__init__(proxy, timeout)
         self._base_url = 'https://search.daum.net'
         self.set_headers({'User-Agent':FAKE_USER_AGENT})
 

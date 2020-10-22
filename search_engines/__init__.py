@@ -16,5 +16,7 @@ __all__ = [
     'Ask', 
     'Mojeek', 
     'Torch',
-    'Daumcafe'
+    'Daumcafe',
+    'Naverkin',
+    'Naverblog'
 ]

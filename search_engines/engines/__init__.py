@@ -8,6 +8,7 @@ from .mojeek import Mojeek
 from .startpage import Startpage
 from .torch import Torch
 from .yahoo import Yahoo
+from .daumcafe import Daumcafe
 
 
 search_engines_dict = { 
@@ -20,6 +21,7 @@ search_engines_dict = {
     'dogpile': Dogpile, 
     'ask': Ask, 
     'mojeek': Mojeek, 
-    'torch': Torch 
+    'torch': Torch,
+    'daumcafe': Daumcafe
 }
 

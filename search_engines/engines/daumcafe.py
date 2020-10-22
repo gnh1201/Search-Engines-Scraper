@@ -31,5 +31,5 @@ class Daumcafe(SearchEngine):
         next_page = self._get_tag_item(tags.select_one(selector), 'href')
         url = None
         if next_page:
-            url = (self._base_url + next_page) 
-        return {'url':url, 'data':None}
+            url = next_page
+        return {'url':next_page, 'data':None}
